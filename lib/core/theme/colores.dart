@@ -22,6 +22,9 @@ abstract final class ColoresAgroVision {
   static const Color gris700 = Color(0xFF374151);
   static const Color gris800 = Color(0xFF1F2937);
 
+  // Gris del subtítulo del logo. No viene de la identidad visual de la web: valor nuevo.
+  static const Color grisSubtitulo = Color(0xFF6B7280);
+
   // Texto sobre fondo oscuro (panel).
   static const Color textoOscuro = Color(0xFFF0F4FF);
 

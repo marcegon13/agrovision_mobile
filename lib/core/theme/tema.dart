@@ -76,6 +76,17 @@ abstract final class TemaAgroVision {
           vertical: EspaciadoAgroVision.sm,
         ),
         border: OutlineInputBorder(borderRadius: bordeRedondeado),
+        enabledBorder: OutlineInputBorder(
+          borderRadius: bordeRedondeado,
+          borderSide: BorderSide(color: colorScheme.outline),
+        ),
+        focusedBorder: OutlineInputBorder(
+          borderRadius: bordeRedondeado,
+          borderSide: BorderSide(
+            color: colorScheme.primary,
+            width: EspaciadoAgroVision.grosorBordeFocus,
+          ),
+        ),
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(

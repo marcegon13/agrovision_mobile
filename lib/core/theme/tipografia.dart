@@ -2,11 +2,34 @@ import 'package:flutter/material.dart';
 
 /// Tipografía de AgroVision: Rajdhani para títulos e Inter para el texto.
 ///
-/// Los nombres de familia coinciden con los archivos .ttf que se declaren
-/// en pubspec.yaml. Mientras no estén declarados, Flutter usa la fuente del sistema.
+/// Los nombres de familia coinciden con los archivos .ttf declarados
+/// en pubspec.yaml.
 abstract final class TipografiaAgroVision {
   static const String familiaTitulos = 'Rajdhani';
   static const String familiaTexto = 'Inter';
+
+  static const double espaciadoSubtitulo = 2;
+
+  /// Nombre de la marca en el lockup del logo.
+  static TextStyle marca(Color color) {
+    return TextStyle(
+      fontFamily: familiaTitulos,
+      fontSize: 28,
+      fontWeight: FontWeight.w600,
+      color: color,
+    );
+  }
+
+  /// Subtítulo del lockup, en mayúsculas y con espaciado entre letras.
+  static TextStyle subtitulo(Color color) {
+    return TextStyle(
+      fontFamily: familiaTexto,
+      fontSize: 11,
+      fontWeight: FontWeight.w500,
+      letterSpacing: espaciadoSubtitulo,
+      color: color,
+    );
+  }
 
   static TextTheme textTheme(Color color) {
     return TextTheme(

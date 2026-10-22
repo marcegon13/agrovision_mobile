@@ -4,7 +4,10 @@ App móvil de AgroVision en Flutter (Dart). Se distribuye como APK desde la web 
 
 ## Alcance
 
-- Solo Android por ahora. No agregar ni tocar plataformas iOS hasta que el dueño del proyecto lo confirme.
+- Android es la plataforma de distribución (APK desde la web de AgroVision).
+- La plataforma web existe solo para ver y probar pantallas en el navegador (`flutter run -d chrome`). No es una plataforma de entrega.
+- No agregar ni tocar plataformas iOS hasta que el dueño del proyecto lo confirme.
+- No modificar las carpetas `android/` por cambios hechos para la web.
 - Código nuevo desde cero. No copiar código de versiones anteriores de la app, de otros proyectos de AgroVision ni de plantillas externas sin revisarlo.
 
 ## Tema visual

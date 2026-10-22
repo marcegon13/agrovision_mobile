@@ -52,3 +52,6 @@ key.properties
 # Archivos de build de Android generados por el IDE/Gradle
 android/.idea/
 android/app/build/
+
+# Reportes y build de Gradle dentro de android/
+android/build/
